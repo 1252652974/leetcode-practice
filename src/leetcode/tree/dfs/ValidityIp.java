@@ -15,7 +15,7 @@ public class ValidityIp {
     private static void ValidityIp(String ipStr, int level, int index, String s) {
         if (level == 5 || index == ipStr.length() - 1) {
             if (level == 5 && index == ipStr.length() - 1) {
-                System.out.println(s);;
+                System.out.println(s);
             }
             return;
         }
